@@ -28,7 +28,9 @@ main {
 }
 
 nav {
-    background-color: beige;
+    font-family: 'Brush Script MT', cursive;
+    width: 100%;
+    background-color: rgb(10, 75, 87);
     padding: 10px;
 }
 
@@ -54,28 +56,55 @@ nav a:hover {
 
 #banner {
     width: 100%;
-    height: auto;
+    height: 50%;
     background-color: white;
 }
 
 #banner img {
     width: 60%;
-    height: auto;
+    height: 50%;
+}
+
+table, th, td {
+    border: 1px solid tomato;
+    border-radius: 10px;
+  }
+
+#logoPic img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+#shrimpPic img{
+    border-radius: 10%;
+}
+
+#spicePic img{
+    border-radius: 5%; 
+}
+
+#tablePic img{
+    width: 50%;
+    height: 50%;
+    border-radius: 15%;
 }
 
 .service {
     display: inline-block;
+    font-family: 'Brush Script MT', cursive;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
     padding: 20px;
-    margin: 10px;
+    margin: 3px;
 }
 
 table {
-    border: 3px solid black;
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid tomato;
     width: 100%;
 }
   
@@ -83,4 +112,8 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+#locations text {
+    font-size: large;
 }
